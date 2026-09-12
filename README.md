@@ -1,22 +1,38 @@
-# Astrophysics Portfolio
+# Eshan Raul — Academic Portfolio
 
-A responsive, single-page academic portfolio built for GitHub Pages. It uses only HTML, CSS, and JavaScript—there is no build step or framework to maintain.
+A responsive, multi-page astronomy portfolio built for GitHub Pages with plain HTML, CSS, and JavaScript. There is no build step or framework.
 
-## Personalize it
+## Pages
 
-Most content lives in `index.html`. Search for `Your Name`, `University Name`, placeholder publication titles, sample statistics, and `#` links to replace them with your details.
+- `index.html` — Home and current highlights
+- `about.html` — Background, education, and values
+- `research.html` — Research overview and publications
+- `research-atmospheres.html` — Exoplanet atmospheres and retrievals
+- `research-dynamics.html` — Exoplanet dynamics
+- `research-disks.html` — Protoplanetary disk chemistry
+- `outreach.html` — Communication, public engagement, teaching, talks, and advocacy
+- `contact.html` — Contact routes and profile links
 
-To enable the CV button, create an `assets` folder and add your CV as `cv.pdf`.
+The research pages share a plain-language/scientific explanation switch. The selected mode is remembered in the visitor's browser.
+
+## Content updates
+
+The current content is based on `Eshan_Raul_Curriculum_Vitae.pdf` and the supplied biography. Replace the PDF in `assets/` when a new CV is ready.
+
+Publication metrics are labeled with their source and date because citation counts change over time.
 
 ## Preview locally
 
-Open `index.html` directly, or run a static file server in this folder.
+From this directory:
 
-## Publish with GitHub Pages
+```bash
+python3 -m http.server 4173
+```
 
-1. Push these files to a GitHub repository.
-2. Open **Settings → Pages** in the repository.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select your default branch and the `/ (root)` folder, then save.
+Then open `http://localhost:4173/`.
 
-All asset paths are relative, so the site works as either a user site or project site.
+## GitHub Pages
+
+The public site is deployed from the `main` branch at:
+
+https://evraul01.github.io/eshanraul/
