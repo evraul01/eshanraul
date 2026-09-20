@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Original orange protoplanetary disk graphic</title>
+  <desc id="desc">Archived version of the site's uniformly thin orange disk rings.</desc>
+  <defs>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g fill="none" stroke="#f6993f" stroke-width="2" opacity="0.78" transform="rotate(-14 90 90)">
+    <ellipse cx="90" cy="90" rx="24" ry="10"/>
+    <ellipse cx="90" cy="90" rx="36" ry="15"/>
+    <ellipse cx="90" cy="90" rx="48" ry="20"/>
+    <ellipse cx="90" cy="90" rx="60" ry="25"/>
+    <ellipse cx="90" cy="90" rx="72" ry="30"/>
+  </g>
+  <circle cx="90" cy="90" r="5" fill="#fff4d6" filter="url(#glow)"/>
+</svg>
